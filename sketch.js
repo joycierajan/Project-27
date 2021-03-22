@@ -72,16 +72,16 @@ function keyPressed() {
 }
 
 
-function drawLine(constraint)
-{
-  bobBodyPosition=constraint.bodyA.position
-  roofBodyPosition=constraint.bodyB.position
+//function drawLine(constraint)
+//{
+  //bobBodyPosition=constraint.bodyA.position
+ // roofBodyPosition=constraint.bodyB.position
 
-  roofBodyOffset=constraint.pointB;
+ // roofBodyOffset=constraint.pointB;
   
-  roofBodyX=roofBodyPosition.x+roofBodyOffset.x
-  roofBodyY=roofBodyPosition.y+roofBodyOffset.y
-  line(bobBodyPosition.x, bobBodyPosition.y, roofBodyX,roofBodyY);
-}
+ // roofBodyX=roofBodyPosition.x+roofBodyOffset.x
+  //roofBodyY=roofBodyPosition.y+roofBodyOffset.y
+  //line(bobBodyPosition.x, bobBodyPosition.y, roofBodyX,roofBodyY);
+//}
 
 
